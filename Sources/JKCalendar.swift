@@ -187,10 +187,10 @@ public class JKCalendar: UIView {
                 
                 if collapsedValue == 0 && oldValue != collapsedValue {
                     delegate?.calendar?(self, didChangedStatus: .expand)
-                    calendarPageView.isScrollEnabled = true
+                    calendarPageView.isScrollEnabled = false
                 } else if collapsedValue == collapsedMaximum && oldValue != collapsedValue {
                     delegate?.calendar?(self, didChangedStatus: .collapse)
-                    calendarPageView.isScrollEnabled = true
+                    calendarPageView.isScrollEnabled = false
                 } else if (collapsedValue != 0 && oldValue == 0) || (collapsedValue != collapsedMaximum && oldValue == collapsedMaximum) {
                     delegate?.calendar?(self, didChangedStatus: .between)
                     calendarPageView.isScrollEnabled = false

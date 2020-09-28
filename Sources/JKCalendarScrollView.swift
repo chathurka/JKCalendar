@@ -46,8 +46,6 @@ public class JKCalendarScrollView: UIScrollView {
     func setup() {
         super.delegate = self
         calendar.interactionObject = self
-        
-        NotificationCenter.default.addObserver(self, selector: #selector(rotated), name: UIDevice.orientationDidChangeNotification, object: nil)
     }
     
     override open func layoutSubviews() {

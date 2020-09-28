@@ -30,8 +30,6 @@ open class JKCalendarTableView: UITableView {
         super.delegate = self
         calendar.backgroundColor = UIColor.white
         calendar.interactionObject = self
-        
-        NotificationCenter.default.addObserver(self, selector: #selector(rotated), name: UIDevice.orientationDidChangeNotification, object: nil)
     }
     
     override open func layoutSubviews() {
