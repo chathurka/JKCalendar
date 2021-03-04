@@ -1,0 +1,20 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.1.4",
+  "iOS" : [
+    {
+      "hash" : "497879f8821d6dd4b54073e7c984334291ad90ca0d8a1d5bc4467dc1b42a3a96",
+      "name" : "JKCalendar",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    }
+  ]
+}

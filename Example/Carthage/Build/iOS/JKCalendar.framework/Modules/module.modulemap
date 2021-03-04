@@ -1,0 +1,4 @@
+framework module JKCalendar {
+  header "JKCalendar-Swift.h"
+  requires objc
+}

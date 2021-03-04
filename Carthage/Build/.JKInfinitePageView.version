@@ -1,0 +1,11 @@
+{
+  "commitish" : "1.2.0",
+  "iOS" : [
+    {
+      "hash" : "3c065e7f7123a785112bc7b40e38a127df26e996a41509f0a3c0741d57d6d03f",
+      "name" : "JKInfinitePageView",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+    }
+  ]
+}
