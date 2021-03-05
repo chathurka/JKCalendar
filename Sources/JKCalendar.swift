@@ -23,7 +23,6 @@
 //
 
 import UIKit
-import JKInfinitePageView
 
 public class JKCalendar: UIView {
     

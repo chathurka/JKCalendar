@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7051BB4725F211E800183C18 /* JKInfinitePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051BB4625F211E800183C18 /* JKInfinitePageView.swift */; };
 		7CBDAE4B1FF49B30007D6D22 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBDAE3F1FF49B30007D6D22 /* common.swift */; };
 		7CBDAE4D1FF49B30007D6D22 /* icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CBDAE421FF49B30007D6D22 /* icon.xcassets */; };
 		7CBDAE501FF49B30007D6D22 /* JKCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBDAE451FF49B30007D6D22 /* JKCalendar.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7051BB4625F211E800183C18 /* JKInfinitePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKInfinitePageView.swift; sourceTree = "<group>"; };
 		7C5141081F34203600263E8A /* JKCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CBDAE3F1FF49B30007D6D22 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 		7CBDAE421FF49B30007D6D22 /* icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = icon.xcassets; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		7CBDAE3E1FF49B30007D6D22 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				7051BB4625F211E800183C18 /* JKInfinitePageView.swift */,
 				7CBDAE3F1FF49B30007D6D22 /* common.swift */,
 				7CBDAE451FF49B30007D6D22 /* JKCalendar.swift */,
 				7CBDAE461FF49B30007D6D22 /* JKCalendarMark.swift */,
@@ -165,6 +168,7 @@
 				7CBDAE511FF49B30007D6D22 /* JKCalendarMark.swift in Sources */,
 				7CBDAE521FF49B30007D6D22 /* JKCalendarScrollView.swift in Sources */,
 				7CBDAE531FF49B30007D6D22 /* JKCalendarTableView.swift in Sources */,
+				7051BB4725F211E800183C18 /* JKInfinitePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +320,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -343,7 +347,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
